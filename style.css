@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600;900&family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.main {
+    background-image: url(Assests/Image/bg-image.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+}
+
+nav img {
+    position: absolute;
+    z-index: 10;
+    margin: 0 30px;
+    width: 140px;
+}
+
+.nav-right {
+    position: absolute;
+    right: 15%;
+    z-index: 10;
+    padding-top: 20px;
+}
+
+.btn-red-sm {
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 6px 15px;
+    background-color: rgb(227, 10, 10);
+    color: white;
+    margin: 6px 15px;
+    cursor: pointer;
+}
+
+#choose {
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 4px 25px;
+    color: white;
+    background-color: rgba(19, 18, 18, 0.317);
+    border: 1px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main .middle {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    height: calc(100% - 60px);
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.middle> :nth-child(1) {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.middle> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.middle> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    /* line-height: 30px; */
+    text-align: center;
+}
+
+.separation {
+    height: 10px;
+    background-color: rgb(35, 35, 35);
+}
+
+.middle-button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    font-family: 'Martel Sans', sans-serif;
+    width: 50vw;
+}
+
+#email {
+    font-size: 15px;
+    padding: 10px 20px;
+    width: 350px;
+    margin: 0 0 0 20px;
+    padding: 15px 10px;
+    background: rgba(23, 23, 23, 0.8);
+    border: 1px solid rgba(207, 215, 207, 0.5);
+    color: white;
+    border-radius: 3px;
+
+}
+
+.btn-red {
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* height: 90vh; */
+}
+
+.first-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.first-left :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+
+}
+
+.first-left :nth-child(2) {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.secImage {
+    position: relative;
+
+}
+
+.secImage img {
+    width: 450px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImage video {
+    position: absolute;
+    top: 70px;
+    right: 61px;
+    width: 329px;
+}
+
+
+.second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* height: 90vh; */
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+
+.second .secImage2 img {
+    width: 500px;
+}
+
+.secImage2 .secImage2-small {
+    border: 2px solid grey;
+    background-color: rgba(0, 0, 0, 0.97);
+    border-radius: 15px;
+    width: 280px;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0;
+    position: absolute;
+    /* overflow: hidden; */
+    bottom: 7%;
+    left: 10%;
+}
+
+
+.secImage2 .secImage2-small img {
+    width: 60px;
+
+}
+
+.secImage2 .secImage2-small .small2 :nth-child(1) {
+    width: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.secImage2 .secImage2-small .small2 :nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.second-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.second-right :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    width: 500px;
+}
+
+.second-right :nth-child(2) {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+.third {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80vw;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* height: 90vh; */
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    z-index: 5;
+}
+
+.third-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.third-left :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.third-left :nth-child(2) {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* 
+.secImage3 img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImage3 video {
+    width: 310px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+} */
+
+
+.fourth {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* height: 90vh; */
+}
+
+
+.fourth .secImage4 img {
+    width: 460px;
+}
+
+.fourth-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.fourth-right :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.fourth-right :nth-child(2) {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    width: 90vw;
+    margin: auto;
+    /* height: 100vh; */
+}
+
+.faq h2 {
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.faqbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 0px 20px;
+    width: 70vw;
+    height: 70px;
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    /* transition: all 1s ease-in-out; */
+    /* size-adjust: large; */
+}
+
+.middle1 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: white;
+    padding-left: 60px;
+    /* width: 60vw; */
+}
+
+.middle1 :nth-child(1) {
+    font-size: 20px;
+    font-weight: 400;
+    /* padding-left: 25px; */
+}
+
+.middle1email {
+    margin-top: 25px;
+    padding-left: 40px;
+}
+
+footer {
+    max-width: 80vw;
+    margin: auto;
+    padding: 30px 0;
+    padding-left: 50px;
+    color: white;
+    height: 60vh;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+footer .questions {
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(225, 225, 225, 0.7)
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer a {
+    color: rgba(225, 225, 225, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .opt {
+    margin: 25px 0;
+}
+
+#choose {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #171717d4;
+}
+
+footer .india {
+    color: rgba(225, 225, 225, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 1250px) {
+    
+    .first {
+        flex-wrap: wrap;
+    }
+    .first-left{
+        text-align: center;
+        align-items: center;
+    }
+    .first-left :nth-child(1) {
+        font-size: 32px;
+    
+    }
+    
+    .first-left :nth-child(2) {
+        font-size: 18px;
+    }
+
+
+    .second {
+        flex-wrap: wrap;
+    }
+    .second-right{
+        text-align: center;
+        align-items: center;
+    }
+    .second-right :nth-child(1) {
+        font-size: 32px;
+        width: 60vw;
+    
+    }
+    
+    .second-right :nth-child(2) {
+        font-size: 18px;
+    }
+    
+    .secImage2 .secImage2-small {
+        display: none;
+    }
+
+
+
+    
+    .third {
+        flex-wrap: wrap;
+    }
+    .third-left{
+        text-align: center;
+        align-items: center;
+    }
+    .third-left :nth-child(1) {
+        font-size: 32px;
+    
+    }
+    
+    .third-left :nth-child(2) {
+        font-size: 18px;
+    }
+    /* .secImage3 img {
+        width: 350px;
+        position: relative;
+        z-index: 10;
+    }
+    .secImage3 video {
+        width: 225px;
+        position: absolute;
+        top: 285px;
+        right: 56px;
+    } */
+
+
+    .fourth {
+        flex-wrap: wrap;
+    }
+    .fourth-right{
+        text-align: center;
+        align-items: center;
+    }
+    .fourth-right :nth-child(1) {
+        font-size: 32px;
+    
+    }
+    
+    .fourth-right :nth-child(2) {
+        font-size: 18px;
+    }
+    
+    
+    .second .secImage2 img {
+        width:400px;
+        margin-bottom: 20px;
+    }
+    
+    .secImage img {
+        width: 320px;
+        position: relative;
+        /* z-index: 10; */
+    }
+    .fourth .secImage4 img {
+        width: 360px;
+    }
+    .secImage video {
+        position: absolute;
+        top: 60px;
+        right: 46px;
+        width: 230px;
+    }
+    
+    #email {
+        font-size: 15px;
+        width: 250px;
+        
+    }
+    
+    .btn-red {
+        width: 200px;
+        font-size: 18px;
+    }
+    .faq h2 {
+        font-size: 34px;
+    }
+    
+    .faqbox {
+        font-size: 18px;
+    }
+    .faqbox span img{
+        width:20px ;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .middle> :nth-child(1) {
+        font-size: 34px;
+    }
+
+    .middle> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .middle> :nth-child(3) {
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .middle-button {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .main {
+        height: 90vh;
+    }
+    
+    .main .box {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        height: 60px;
+    }
+    nav img{
+        width: 100px;
+        margin-top: 15px;
+    }
+    .nav-right{
+        margin-top: 20px;
+        
+    }
+
+    .btn-red-sm {
+        font-size: 13px;
+        font-weight:300;
+        padding: 4px 10px;
+        margin: 3px 1px;
+    }
+    .btn-red {
+        padding: 8px 10px;
+        width: 150px;
+        font-size: 16px;
+    }
+    #choose {
+        font-size: 13px;
+        font-weight: 400;
+        padding: 4px 10px;
+        border-radius: 3px;
+    }
+    .main {
+        height: 80vh;
+    }
+    
+    .main .box {
+        height: 80vh;
+    }
+    .faq h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+}
